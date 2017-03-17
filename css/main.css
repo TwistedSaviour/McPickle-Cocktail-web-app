@@ -1,0 +1,363 @@
+/************* FONTS *************/
+@font-face {
+    font-family: neon;
+    src: url("../fonts/neon2.woff");
+    src: url("../fonts/neon2.woff2");
+    src: url("../fonts/neon2.ttf");
+}
+
+
+/************* BODY *************/
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: url("bg14.jpg");
+	opacity:0.9;
+    background-repeat: no-repeat center center fixed; 
+
+}
+
+/************* HEADINGS *************/
+h1, h2, h3{
+		color:#fff! important;	
+		line-height: 1.5em;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 1.8em! important;
+}
+
+h3{
+	font-size: 1em;
+}
+
+.twist_h2{
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+}
+
+.search{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.flip_h2, .search2{
+	text-align: center;
+	color: #000!important;
+	font-family: 'Oswald', sans-serif;
+}
+
+.twist_h1{
+	font-family: "neon" !important;
+	font-size: 4em!important;
+	color: #228DFF;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;		
+}
+
+.twist_h1:hover{
+  transition: transform 2s;	
+    transform: scale(1.06);
+    z-index: 1;
+}
+
+
+.nav_h1{
+	font-family: "neon" !important;
+	font-size: 2em!important;
+	color: #228DFF;
+	margin-left: 20px;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;		
+}
+
+.white_p{
+	margin-top: 10px;
+	color: #fff;
+}
+
+/************* NAVIGATION *************/
+.menu{
+	line-height: 3.5;
+}
+
+.navbar-brand{
+	font-family: neon;
+	font-size: 2.6em!important;
+	color:#228DFF !important;
+	float: left;
+  height: 50px;
+  padding: 15px 15px;	
+}
+
+.navbar-inverse {
+  box-shadow: 0 1px 40px 0 rgba(35,75,120,0.6),0 0px 40px 0 rgba(35,75,120,0.6)!important;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: rgba(35,75,120,0.6) ! important;
+	color: #fff ! important;
+}
+
+.nav-pills>li>a{
+	border-radius: 2em ! important;
+
+}
+
+nav li a{
+
+	color:#228DFF !important;
+}
+
+
+.nav-pills{
+	background: #000;
+}
+
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+/************* BUTTONS *************/
+.button1, .button2{
+	margin: 40px auto! important;
+	width: 60%;
+	border-radius: 6em;
+  box-shadow: 0 1px 40px 0 rgba(35,75,120,0.6),0 0px 40px 0 rgba(35,75,120,0.6)!important;
+	font-size: 1.8em! important;
+	padding: 10px;
+}
+
+.button1:hover{
+	border-radius: 6em;
+  box-shadow: 0 1px 120px 0 rgba(5,255,75,0.8),0 0px 60px 0 rgba(5,255,75,0.8)!important;
+    transition: all 0.6s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.button2:hover{
+	border-radius: 6em;
+  box-shadow:0 1px 120px 0 rgba(250,5,5,0.8),0 0px 60px 0 rgba(250,5,5,0.8)!important;
+    transition: all 0.6s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+/************* IMAGES *************/
+.img-center{
+	display: block;
+	margin: 0 auto;
+	border-radius: 2em;
+}
+
+/************* SECTIONS *************/
+.ageScreen{
+	margin: 60px auto;
+}
+
+.wait{
+	width:16rem; 
+	margin: 0 auto;
+	
+}
+
+/*
+.left{
+	
+
+}
+
+.right{
+
+}
+*/
+
+.drink{
+	width: 10rem;
+	margin: 0 auto;
+}
+
+/************* CARDS *************/
+.cardList li{
+	text-align:left;
+}
+
+.methodList li{
+	text-align:left;
+}
+
+.card {
+  position: relative;
+  padding-bottom: 25%;
+  width: 100%;
+	min-height:320px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+}
+
+.card1 {
+    position: relative;
+    min-height: 230px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+.card:nth-child(1) {
+  margin-left: -3px;
+  margin-right: 1px;
+}
+
+.card:nth-child(2),
+.card:nth-child(3) {
+  margin-right: 1px;
+}
+
+/* card fronts and backs */
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	border: 1px solid #ccc;
+	border-radius: 1em;
+}
+
+.card__front,
+.card__back1, .card__back2 {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card_p2{
+	text-align: left;
+	padding-left: 15px;
+}
+
+.card__front {
+  background-color: #fff;
+}
+
+.card__back1 {
+background: ;
+  background-size: 100%;
+  -webkit-transform: rotateY(-180deg);
+					transform: rotateY(-180deg);
+}
+.card__back2 {
+    background-size: 100%;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/* card text */
+.card__text {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+font-family: 'Oswald', sans-serif;
+  line-height: 20px;
+}
+
+.card p{
+	color: #000;
+	font-size: 1em;
+}
+
+
+/* hover effect */
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+/* click effect */
+.card.effect__click.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+
+}
+
+.card.effect__click.flipped .card__back1 {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+
+}
+
+.card.effect__click.flipped .card__back2 {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+/************* SEARCH INPUT *************/
+input[type=text] {
+  width: 220px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+	color:#0058ff ;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+	margin: 15px;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0px 50px 0 rgba(255,35,120,0.9),0 0px 20px 0 rgba(255,35,120,0.9)!important;
+}
+
+
+/************* RESPONSIVES *************/
+@media only screen and (max-width: 767px){
+	
+.twist_h1{
+	font-size: 2.6em;
+}
+
+
+
+}
+
+@media (min-width: 992px){
+
+.twist_h1{
+	font-size: 2.6em;
+}
+
+
+}
